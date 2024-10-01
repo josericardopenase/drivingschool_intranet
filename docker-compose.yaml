@@ -9,7 +9,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      NEXTAUTH_URL: http://localhost:3000
-    command: npx next dev -H localhost -p 3000
+      NEXTAUTH_URL: http://0.0.0.0:3000
+    command: npx next dev -H 0.0.0.0 -p 3000
     stdin_open: true
     tty: true
