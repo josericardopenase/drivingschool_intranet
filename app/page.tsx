@@ -10,13 +10,11 @@ export default function Home() {
       <div className="max-w-[1200px] w-full">
         <section className="w-full justify-center flex flex-col items-center ">
           <h1 className="text-center text-3xl font-bold">AUTOESCUELA ECO</h1>
-          <h2 className="mt-3 text-xl font-bold text-green-500">
-            INTRANET CORPORATIVA
-          </h2>
+          <h2 className="mt-3 text-xl font-bold text-green-500">PEPITO 1.0</h2>
         </section>
         <section className="mt-14 grid grid-cols-3 w-full gap-5">
           <a
-            href="https://documents.pchil-homelab.online"
+            href="https://documentos.autoescuelaseco.cloud/"
             target="_blank"
             className="bg-gray-100 p-10 rounded-3xl w-full "
           >
@@ -29,34 +27,6 @@ export default function Home() {
             <p className="text-sm text-gray-700 mt-0 text-blue-400">
               Nextcloud
             </p>
-          </a>
-          <a
-            href="https://passwords.pchil-homelab.online"
-            target="_blank"
-            className="bg-gray-100 p-10 rounded-3xl w-full"
-          >
-            <div className="h-[50px] w-[50px] bg-purple-400 flex justify-center items-center rounded-lg text-white">
-              <BiSolidLock size="30" />
-            </div>
-            <p className="font-semibold text-xl text-gray-700 mt-5">
-              Gestor de contraseñas
-            </p>
-            <p className="text-sm text-purple-700 mt-0 text-blue-400">
-              Vaultpass
-            </p>
-          </a>
-          <a
-            href="https://gpt.pchil-homelab.online"
-            target="_blank"
-            className="bg-gray-100 p-10 rounded-3xl w-full"
-          >
-            <div className="h-[50px] w-[50px] bg-black flex justify-center items-center rounded-lg text-white">
-              <IoChatbubble size="30" />
-            </div>
-            <p className="font-semibold text-xl text-gray-700 mt-5">
-              Asistente personal
-            </p>
-            <p className="text-sm text-black mt-0 text-blue-400">Llama 3.1</p>
           </a>
         </section>
       </div>
