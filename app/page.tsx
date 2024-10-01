@@ -97,6 +97,21 @@ export default function Home() {
               Documentos
             </p>
           </a>
+          <a
+            href="https://documentos.autoescuelaseco.cloud/index.php/f/3879"
+            target="_blank"
+            className="bg-gray-100 p-10 rounded-3xl w-full "
+          >
+            <div className="h-[50px] w-[50px] bg-purple-400 flex justify-center items-center rounded-lg text-white">
+              <BiSolidFolder size="30" />
+            </div>
+            <p className="font-semibold text-xl text-gray-700 mt-5">
+              INCIDENCIAS
+            </p>
+            <p className="text-sm mt-0 text-purple-400 font-semibold">
+              Documentos
+            </p>
+          </a>
         </section>
       </div>
     </div>
