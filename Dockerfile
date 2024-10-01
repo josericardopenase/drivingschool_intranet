@@ -5,13 +5,11 @@ FROM node:20
 WORKDIR /app
 
 # Copia solo los archivos necesarios para instalar dependencias
-COPY package*.json ./
+COPY . .
 
 # Instala las dependencias de producción
-RUN npm ci --only=production
+RUN npm install
 
-# Copia el resto de los archivos de la aplicación
-COPY . .
 
 # Construye la aplicación para producción
 RUN npm run build
