@@ -13,13 +13,18 @@ import { IoChatbubble } from "react-icons/io5";
 
 export default function Home() {
   return (
-    <div className="w-full  h-[100vh] items-center flex flex-col mt-20">
-      <div className="max-w-[1200px] w-full">
-        <section className="w-full justify-center flex flex-col items-center ">
-          <h1 className="text-center text-3xl font-bold">AUTOESCUELA ECO</h1>
-          <h2 className="mt-3 text-xl font-bold text-green-500">PEPITO 1.0</h2>
-        </section>
+    <div className="w-full  h-[100vh] items-center flex flex-col ">
+      <section className="w-full justify-center flex flex-col items-center bg-green-500 py-16">
+        <h1 className="text-center text-white text-3xl font-bold">
+          AUTOESCUELA ECO
+        </h1>
+        <h2 className="mt-3 text-xl font-bold text-white">PEPITO 1.0</h2>
+      </section>
 
+      <div className="max-w-[1200px] w-full">
+        <h1 className="text-2xl mt-10 font-bold text-gray-800">
+          PANEL PRINCIPAL
+        </h1>
         <h1 className="text-xl mt-10 font-semibold text-gray-500">Apps</h1>
         <section className="mt-3 grid grid-cols-3 w-full gap-5">
           <a
@@ -35,9 +40,7 @@ export default function Home() {
           </a>
         </section>
 
-        <h1 className="text-xl mt-10 font-semibold text-gray-500">
-          Accesos directos
-        </h1>
+        <h1 className="text-xl mt-10 font-semibold text-gray-500">Carpetas</h1>
         <section className="mt-3 grid grid-cols-3 w-full gap-5 mb-5">
           <a
             href="https://documentos.autoescuelaseco.cloud/index.php/f/3851"
