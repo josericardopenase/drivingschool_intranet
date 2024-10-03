@@ -22,7 +22,7 @@ export default function Home() {
       </section>
 
       <div className="max-w-[1200px] w-full">
-        <h1 className="text-2xl mt-10 font-bold text-gray-800">
+        <h1 className="text-2xl mt-10 font-semibold text-gray-800">
           PANEL PRINCIPAL
         </h1>
         <h1 className="text-xl mt-10 font-semibold text-gray-500">Apps</h1>
@@ -90,6 +90,19 @@ export default function Home() {
             target="_blank"
             className="bg-gray-100 p-10 rounded-3xl w-full "
           >
+            <div className="h-[50px] w-[50px] bg-blue-400 flex justify-center items-center rounded-lg text-white">
+              <BiSolidFolder size="30" />
+            </div>
+            <p className="font-semibold text-xl text-gray-700 mt-5">ARCHIVOS</p>
+            <p className="text-sm mt-0 text-blue-400 font-semibold">
+              Documentos
+            </p>
+          </a>
+          <a
+            href="https://documentos.autoescuelaseco.cloud/index.php/f/2856"
+            target="_blank"
+            className="bg-gray-100 p-10 rounded-3xl w-full "
+          >
             <div className="h-[50px] w-[50px] bg-pink-400 flex justify-center items-center rounded-lg text-white">
               <BiSolidFolder size="30" />
             </div>
@@ -101,7 +114,7 @@ export default function Home() {
             </p>
           </a>
           <a
-            href="https://documentos.autoescuelaseco.cloud/index.php/f/3879"
+            href="https://documentos.autoescuelaseco.cloud/index.php/f/4383"
             target="_blank"
             className="bg-gray-100 p-10 rounded-3xl w-full "
           >
@@ -109,7 +122,7 @@ export default function Home() {
               <BiSolidFolder size="30" />
             </div>
             <p className="font-semibold text-xl text-gray-700 mt-5">
-              INCIDENCIAS
+              HORARIOS SECRETARÍAS
             </p>
             <p className="text-sm mt-0 text-purple-400 font-semibold">
               Documentos
