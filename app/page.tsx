@@ -86,7 +86,7 @@ export default function Home() {
             </p>
           </a>
           <a
-            href="https://documentos.autoescuelaseco.cloud/index.php/f/2856"
+            href="https://documentos.autoescuelaseco.cloud/index.php/apps/files/files"
             target="_blank"
             className="bg-gray-100 p-10 rounded-3xl w-full "
           >
