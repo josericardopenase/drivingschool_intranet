@@ -5,7 +5,7 @@ import {
   BiLock,
   BiLockAlt,
   BiSolidFolder,
-  BiSolidLock,
+  BiSolidLock, BiSupport,
 } from "react-icons/bi";
 import { FaCloud, FaMessage } from "react-icons/fa6";
 import { IoIosLock } from "react-icons/io";
@@ -13,6 +13,7 @@ import { IoChatbubble } from "react-icons/io5";
 import { FaSpeakerDeck, FaTrello } from "react-icons/fa";
 import React from "react";
 import { PiOpenAiLogo } from "react-icons/pi";
+import {MdAdminPanelSettings} from "react-icons/md";
 
 export default function Home() {
   return (
@@ -31,39 +32,51 @@ export default function Home() {
         <h1 className="text-xl mt-10 font-semibold text-gray-500">Apps</h1>
         <section className="mt-3 grid grid-cols-3 w-full gap-5">
           <a
-            href="https://documentos.autoescuelaseco.cloud/"
-            target="_blank"
-            className="bg-blue-400 p-10 rounded-3xl w-full !text-white "
+              href="https://documentos.autoescuelaseco.cloud/"
+              target="_blank"
+              className="bg-blue-400 p-10 rounded-3xl w-full !text-white "
           >
             <div className="h-[50px] w-[50px] bg-blue-500 flex justify-center items-center rounded-lg text-white">
-              <FaCloud size="30" />
+              <FaCloud size="30"/>
             </div>
             <p className="font-semibold text-xl mt-5">Gestor de documentos</p>
             <p className="text-sm font-semibold mt-0 ">Documentos</p>
           </a>
           <a
-            href="https://tablero-jefas.autoescuelaseco.cloud"
-            target="_blank"
-            className="bg-pink-400 p-10 rounded-3xl w-full !text-white "
+              href="https://tablero-jefas.autoescuelaseco.cloud"
+              target="_blank"
+              className="bg-pink-400 p-10 rounded-3xl w-full !text-white "
           >
             <div className="h-[50px] w-[50px] bg-pink-500 flex justify-center items-center rounded-lg text-white">
               {/* eslint-disable-next-line react/jsx-no-undef */}
-              <FaTrello size="30" />
+              <FaTrello size="30"/>
             </div>
             <p className="font-semibold text-xl mt-5">Focalboard Jefas</p>
             <p className="text-sm font-semibold mt-0 ">Tablero de trabajo</p>
           </a>
           <a
-            href="https://asistente.autoescuelaseco.cloud"
-            target="_blank"
-            className="bg-gray-800 p-10 rounded-3xl w-full !text-white "
+              href="https://asistente.autoescuelaseco.cloud"
+              target="_blank"
+              className="bg-gray-800 p-10 rounded-3xl w-full !text-white "
           >
             <div className="h-[50px] w-[50px] bg-gray-600 flex justify-center items-center rounded-lg text-white">
               {/* eslint-disable-next-line react/jsx-no-undef */}
-              <PiOpenAiLogo size="30" />
+              <PiOpenAiLogo size="30"/>
             </div>
             <p className="font-semibold text-xl mt-5">Asistente virtual</p>
             <p className="text-sm font-semibold mt-0 ">OpenWebUI</p>
+          </a>
+          <a
+              href="https://admin.autoescuelaseco.cloud"
+              target="_blank"
+              className="bg-orange-500 p-10 rounded-3xl w-full !text-white "
+          >
+            <div className="h-[50px] w-[50px] bg-orange-700 flex justify-center items-center rounded-lg text-white">
+              {/* eslint-disable-next-line react/jsx-no-undef */}
+              <MdAdminPanelSettings size="30"/>
+            </div>
+            <p className="font-semibold text-xl mt-5">Administración Servidor</p>
+            <p className="text-sm font-semibold mt-0 ">Proxmox</p>
           </a>
         </section>
         <h1 className="text-xl mt-10 font-semibold text-gray-500">Carpetas</h1>
@@ -77,7 +90,7 @@ export default function Home() {
               <BiSolidFolder size="30"/>
             </div>
             <p className="font-semibold text-xl text-gray-700 mt-5">
-              RAFAEL CABRERA
+            RAFAEL CABRERA
             </p>
             <p className="text-sm mt-0 text-red-400 font-semibold">
               Documentos
